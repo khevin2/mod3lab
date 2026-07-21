@@ -1,0 +1,67 @@
+{
+  "dataset_id": "synthetic-support-v1",
+  "description": "Fictional customer-support tickets created only for this lab.",
+  "tickets": [
+    {
+      "ticket_id": "TKT-001",
+      "subject": "Duplicate subscription charge",
+      "message": "I was charged $49 twice for the same monthly subscription this morning. Please reverse the duplicate charge.",
+      "channel": "email"
+    },
+    {
+      "ticket_id": "TKT-002",
+      "subject": "Password reset email never arrives",
+      "message": "I requested a password reset two hours ago and tried again twice, but no reset email has arrived. I cannot sign in to my account.",
+      "channel": "web"
+    },
+    {
+      "ticket_id": "TKT-003",
+      "subject": "Mobile app crashes during image upload",
+      "message": "Since yesterday's app update, uploading a JPG larger than 5 MB closes the mobile app. Uploading the same file from the desktop site works.",
+      "channel": "in_app"
+    },
+    {
+      "ticket_id": "TKT-004",
+      "subject": "Dark mode request",
+      "message": "Could you add a dark mode? The current interface is difficult to use at night, but everything else is working.",
+      "channel": "web"
+    },
+    {
+      "ticket_id": "TKT-005",
+      "subject": "Entire support team sees 503 errors",
+      "message": "All 35 agents in our production workspace receive a 503 error after signing in. Work has stopped, but your public status page still shows all systems operational.",
+      "channel": "phone"
+    },
+    {
+      "ticket_id": "TKT-006",
+      "subject": "Need a PDF copy of an invoice",
+      "message": "Where can I download last month's invoice as a PDF? I can see the invoice number in billing history but cannot find an export button.",
+      "channel": "email"
+    },
+    {
+      "ticket_id": "TKT-007",
+      "subject": "Dashboard sometimes times out",
+      "message": "The analytics dashboard timed out three times today. Retrying usually loads it, but each attempt takes around a minute.",
+      "channel": "in_app"
+    },
+    {
+      "ticket_id": "TKT-008",
+      "subject": "Billed after confirmed cancellation",
+      "message": "Support confirmed my cancellation last month, but I was charged again today. Please stop future charges and refund this payment.",
+      "channel": "email"
+    },
+    {
+      "ticket_id": "TKT-009",
+      "subject": "Weekly email digest suggestion",
+      "message": "The new dashboard is excellent. A weekly email digest of the same metrics would save our managers time.",
+      "channel": "web"
+    },
+    {
+      "ticket_id": "TKT-010",
+      "subject": "It is not working",
+      "message": "It is not working. Please help.",
+      "channel": "email"
+    }
+  ]
+}
+

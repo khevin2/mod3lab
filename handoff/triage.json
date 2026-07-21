@@ -1,0 +1,132 @@
+{
+    "workflow_version": "1.0",
+    "dataset_id": "synthetic-support-v1",
+    "tickets": [
+        {
+            "ticket_id": "TKT-001",
+            "category": "billing",
+            "priority": "high",
+            "sentiment": "negative",
+            "summary": "Customer reports two $49 charges for the same monthly subscription and requests reversal of the duplicate.",
+            "recommended_action": "Review the subscription billing records, confirm whether the two $49 charges are duplicates, and reverse the duplicate charge if verified.",
+            "confidence": 0.99,
+            "needs_clarification": false,
+            "information_gaps": [],
+            "source_evidence": "“charged $49 twice for the same monthly subscription this morning”"
+        },
+        {
+            "ticket_id": "TKT-002",
+            "category": "account_access",
+            "priority": "high",
+            "sentiment": "negative",
+            "summary": "Customer cannot sign in because multiple password-reset requests have not produced a reset email.",
+            "recommended_action": "Investigate password-reset email delivery, verify whether the requests were generated, and help restore account access.",
+            "confidence": 0.99,
+            "needs_clarification": false,
+            "information_gaps": [],
+            "source_evidence": "“no reset email has arrived” and “I cannot sign in to my account”"
+        },
+        {
+            "ticket_id": "TKT-003",
+            "category": "technical",
+            "priority": "medium",
+            "sentiment": "negative",
+            "summary": "After the latest app update, the mobile app closes when uploading JPG files larger than 5 MB; desktop upload still works.",
+            "recommended_action": "Reproduce the issue on the updated mobile app with a JPG larger than 5 MB, investigate the crash, and note the desktop-site workaround.",
+            "confidence": 0.99,
+            "needs_clarification": false,
+            "information_gaps": [],
+            "source_evidence": "“uploading a JPG larger than 5 MB closes the mobile app”"
+        },
+        {
+            "ticket_id": "TKT-004",
+            "category": "feature_request",
+            "priority": "low",
+            "sentiment": "neutral",
+            "summary": "Customer requests a dark mode to make the interface easier to use at night; existing functionality works.",
+            "recommended_action": "Record and route the dark-mode request to the product team for consideration.",
+            "confidence": 0.99,
+            "needs_clarification": false,
+            "information_gaps": [],
+            "source_evidence": "“Could you add a dark mode?” and “everything else is working”"
+        },
+        {
+            "ticket_id": "TKT-005",
+            "category": "service_outage",
+            "priority": "critical",
+            "sentiment": "negative",
+            "summary": "All 35 agents in a production workspace receive 503 errors after sign-in, stopping the entire team's work.",
+            "recommended_action": "Escalate as a production incident, investigate the workspace-wide 503 errors immediately, and verify whether the public status page needs updating.",
+            "confidence": 1.0,
+            "needs_clarification": false,
+            "information_gaps": [],
+            "source_evidence": "“All 35 agents” receive “a 503 error” and “Work has stopped”"
+        },
+        {
+            "ticket_id": "TKT-006",
+            "category": "billing",
+            "priority": "low",
+            "sentiment": "neutral",
+            "summary": "Customer can see last month's invoice number but cannot find a way to download the invoice as a PDF.",
+            "recommended_action": "Provide the correct steps or location for downloading the invoice PDF, or investigate why the export option is unavailable.",
+            "confidence": 0.98,
+            "needs_clarification": false,
+            "information_gaps": [],
+            "source_evidence": "“cannot find an export button” for “last month's invoice as a PDF”"
+        },
+        {
+            "ticket_id": "TKT-007",
+            "category": "technical",
+            "priority": "medium",
+            "sentiment": "negative",
+            "summary": "The analytics dashboard intermittently times out and takes about a minute per attempt, though retrying usually succeeds.",
+            "recommended_action": "Investigate intermittent dashboard timeouts and slow load times, using the reported repeated occurrences and successful retry behavior.",
+            "confidence": 0.98,
+            "needs_clarification": false,
+            "information_gaps": [],
+            "source_evidence": "“timed out three times today” and “Retrying usually loads it”"
+        },
+        {
+            "ticket_id": "TKT-008",
+            "category": "billing",
+            "priority": "high",
+            "sentiment": "negative",
+            "summary": "Customer was charged again after support confirmed cancellation and requests a refund and prevention of future charges.",
+            "recommended_action": "Verify the confirmed cancellation, stop any active recurring billing, and refund the post-cancellation charge if validated.",
+            "confidence": 0.99,
+            "needs_clarification": false,
+            "information_gaps": [],
+            "source_evidence": "“Support confirmed my cancellation last month, but I was charged again today”"
+        },
+        {
+            "ticket_id": "TKT-009",
+            "category": "feature_request",
+            "priority": "low",
+            "sentiment": "positive",
+            "summary": "Customer praises the new dashboard and suggests a weekly email digest containing the same metrics.",
+            "recommended_action": "Record and route the weekly metrics email-digest suggestion to the product team for consideration.",
+            "confidence": 0.99,
+            "needs_clarification": false,
+            "information_gaps": [],
+            "source_evidence": "“The new dashboard is excellent” and requests “A weekly email digest”"
+        },
+        {
+            "ticket_id": "TKT-010",
+            "category": "other",
+            "priority": "medium",
+            "sentiment": "negative",
+            "summary": "Customer reports that something is not working but provides no affected feature, symptoms, or context.",
+            "recommended_action": "Ask which feature or task is failing, what happened, what was expected, any error message, reproduction steps, and the device or environment used.",
+            "confidence": 0.34,
+            "needs_clarification": true,
+            "information_gaps": [
+                "Affected feature or task",
+                "Observed behavior and expected behavior",
+                "Error message or visible symptoms",
+                "Steps to reproduce the issue",
+                "Device, application, or browser environment"
+            ],
+            "source_evidence": "“It is not working. Please help.”"
+        }
+    ]
+}
